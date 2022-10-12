@@ -12,6 +12,9 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['withcare.co.za', 'withcare.co.za:8000']
+
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 DATABASES = {
